@@ -15,3 +15,7 @@ Business website for appliance repair services in Kanata, Ottawa.
 
 ## Live Demo
 https://localfixkanata.netlify.app/
+
+### Screenshots
+
+<img src="localfix_preview.jpg" alt="LocalfixKanata Preview" width="400">
