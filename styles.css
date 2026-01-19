@@ -1,0 +1,372 @@
+body{
+    margin: 0;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color:#27548A;
+    padding: 10px;
+}
+.item{
+    color:#DDA853 ;
+    padding: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+header{
+  color:#DDA853;
+  font-family: 'Montserrat', sans-serif;
+}
+
+video{
+    width: 300px;
+    display: flex;    
+    justify-content: flex-start; 
+    border-radius: 50%;
+}
+.columns{
+  display: flex;
+  flex-direction: column;
+  
+}
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  
+  padding: 40px 20px;
+}
+.text-side {
+  max-width: 400px;
+  text-align: center;
+  color: #DDA853;
+  padding: 20px;
+}
+.site-title {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+.site-title2{
+  font-size: 22px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #DDA853;
+    background-color: #27548A;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+p{
+    align-self: center;
+    text-transform: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #DDA853;
+    background-color: #27548A;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #27548A;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.dropdown {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    transform: translateY(-10px); 
+    transition: all 0.3s ease;
+    
+    }
+.dropdown a {
+      color: #27548A;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+.dropdown a:hover {
+      background-color: #27548A;
+      color: #DDA853;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+.menu:hover .dropdown {
+      opacity: 1;
+  visibility: visible;
+  transform: translateY(0); 
+  }
+
+.button{
+  color: #27548A;
+  background-color: #DDA853;
+  font-size: 15px;
+  padding: 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  gap: 10px;
+  max-width: 200px;
+  display: inline-block;
+  
+}
+
+.button:hover {
+  background-color: #27548A;
+  color: #DDA853;
+}
+
+.testimonials {
+  background-color: #27548A;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.slider {
+  max-width: 700px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  height: 180px;
+}
+
+.slide {
+  display: none;
+  padding: 20px;
+  color: #27548A;
+  font-size: 18px;
+  line-height: 1.6;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+  display: block;
+  border: 2px solid #DDA853;
+    border-radius: 15px;
+    background-color:white;
+    color: #333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.5s ease;
+}
+.text{
+  background-color: white;
+}
+
+.author {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #DDA853;
+}
+
+.footer {
+  background-color: #27548A;
+  padding: 40px 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  text-align: left;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: center; 
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+  max-width: 350px;
+}
+
+.empty-column {
+  flex: 1;
+  min-width: 50px;
+  max-width: 100px;
+}
+
+.footer a {
+  color: #DDA853;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+.footer iframe {
+  width: 100%;
+  height: 220px;
+  border: 0;
+  margin-top: 10px;
+}
+
+.heaading-footer {
+  margin-bottom: 10px;
+  color: #27548A;
+}
+
+.footer p {
+  margin: 6px 0;
+  font-size: 18px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  color: #888;
+}
+
+@media all and (max-width:820px) {
+ body{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  header{
+    flex-wrap: wrap;
+  }
+  .hero-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .wrapper{
+      align-items: center;
+      margin-top: 0px;
+      margin-bottom: 0px; 
+    }
+  .item {
+    margin: 5px 0;
+    }
+  .heading {
+    padding: 0px;
+  }
+  img{
+      width: 60%;
+      max-width: 360px;
+  }
+  .image-side{
+     display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .header{
+      flex-direction: column;
+      align-items: center;
+  }
+  .text-side {
+    padding: 10px;
+  }
+  .site-title {
+    font-size: 28px;
+  }
+  .site-title2 {
+    font-size: 18px;
+  }
+  .button {
+    padding: 12px;
+    font-size: 13px;
+    max-width: 160px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .slide {
+    font-size: 16px;
+  }
+  .footer p {
+    font-size: 16px;
+  }
+}
+
+
+@media all and (max-width:412px) {
+  .wrapper{
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0px;
+      margin-bottom: 0px; 
+    }
+  img{
+      width: 50%;
+      max-width: 360px;
+    }
+  .image-side{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .image-side img {
+    width: 100%; 
+    max-width: 400px;
+  }
+  .header{
+      padding: 0px;
+  }
+   .text-side {
+    padding: 0px;
+  }
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+  .item {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+}
