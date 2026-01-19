@@ -1,21 +1,16 @@
-# LocalFix Kanata
+## LocalFix Kanata 🛠️
 
-Business website for appliance repair services in Kanata, Ottawa.
+A website for appliance repair services in Kanata, Ottawa. Focused on clear info and user-friendly navigation.
 
-## Features
-- Showcases available services (washing machine, dryer, dishwasher, refrigerator, microwave)
-- Contact information with clickable email and phone
-- Responsive design for mobile and desktop
-- Interactive elements: service cards, hover effects
+### Features
+- List of services and contact form
+- Mobile-friendly layout
 
-## Technologies
-- HTML
-- CSS
-- JavaScript
+### Demo
+[Live Demo on Netlify](https://localfixkanata.netlify.app/)
 
-## Live Demo
-https://localfixkanata.netlify.app/
+### Screenshot
+<img src="localfix_preview.jpg" alt="LocalFix Preview" width="400">
 
-### Screenshots
-
-<img src="localfix_preview.jpg" alt="LocalfixKanata Preview" width="400">
+### Technologies
+HTML5, CSS3, JavaScript
